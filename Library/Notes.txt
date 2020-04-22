@@ -1,0 +1,36 @@
+To check if MSSQLLocalDB is install 
+  => Open Command Prompt as Admin and type sqllocaldb info
+  => Results should  MSSQLLocalDB,ProjectsV12,ProjectV13
+If the above results were not showing 
+  => Type this command sqllocaldb start "MSSQLLocalDB"
+To connect SQL Management Studio
+=>(localdb)\\MSSQLLocalDB
+
+Integrated Library System
+Libray Is where users can checkout Media,Books,Vidoes.
+ As Library I might need to manage Patrons that comes in to checkout or checkint
+ To check where are going or retained or lost
+ I need to charge some Patrons fees
+ I need to understand some various branches
+ Develop the mechansim to checkout or checkin to manage the flow of an application
+
+Library Asset
+ Title,Authour,Year Publish,Cost
+ Some other Branch 
+ =>Location,Checkout Status
+
+ Patrons 
+ FirstName,LastName,Address
+ Some other objects that related to Patron
+ => Library Card Id
+ => Home Library Branch
+   
+LibraryBranch
+BranchName,Telephone,Address
+Some other objects that related to LibraryBranches
+=>Total Costs of Assest
+=>Total Number of Patrons
+
+CheckOut
+=>Associate an asset with library card
+
